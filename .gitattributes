@@ -1,0 +1,9 @@
+# Pastas geradas automaticamente pelo Flutter.
+# O GitHub nao deve contar esses arquivos como linguagem principal.
+android/** linguist-generated=true
+ios/** linguist-generated=true
+linux/** linguist-generated=true
+macos/** linguist-generated=true
+windows/** linguist-generated=true
+web/** linguist-generated=true
+pubspec.lock linguist-generated=true
