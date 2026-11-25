@@ -1,14 +1,11 @@
 import 'package:material_ui/material_ui.dart';
-import 'package:supabase_flutter/supabase_flutter.dart';
+
+import 'config/supabase_config.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  // Primeiro commit: os dados reais do Supabase serao colocados aqui.
-  await Supabase.initialize(
-    url: 'https://SEU-PROJETO.supabase.co',
-    publishableKey: 'SUA-CHAVE-PUBLICA',
-  );
+  await SupabaseConfig.initialize();
 
   runApp(const MeuApp());
 }
